@@ -3,7 +3,7 @@
 ## a portfolio for developers
 
 ![screenshot](https://andy8647.com/website.jpg)
-
+![](src/assets/img/homeprofile.png)
 [View Live Demo](https://andy8647.com/)
 
 Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
@@ -137,7 +137,7 @@ const firebaseConfig = {
 
 ### 6. Deployment
 
-I recommend using [Netlify](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
+I recommend using [Render](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
 
 P.S. If you are using Netlify, to resolved the bug from `react-router-dom`, you need to add a `_redirects` file in the `public` folder and add the following code:
 
