@@ -2,9 +2,9 @@ import self from '../img/self.png';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
-  firstName: 'Andy',
-  lastName: 'Luo',
-  initials: 'AL', // the example uses first and last, but feel free to use three or more if you like.
+  firstName: 'Chien',
+  lastName: 'Nguyen',
+  initials: 'Zz', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a Full Stack Developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -12,26 +12,26 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇨🇦',
-      text: 'based in the Toronto, Canada',
+      emoji: '🇻🇳',
+      text: 'Based in the Ho Chi Minh city, VietNam',
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
+      text: 'Full Stack Developer',
     },
     {
       emoji: '📧',
-      text: 'andy8647lgc@gmail.com',
+      text: 'chien.170901@gmail.com',
     },
   ],
   socials: [
     {
-      link: 'https://andy8647.com/andy.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'https://github.com/Cotchi666/resume/blob/main/NGUYEN-NGOC-CHIEN-TopCV.vn-090723.170024%20(1).pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file',
       label: 'resume',
     },
     {
-      link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
+      link: 'https://www.instagram.com/cotchi_en/',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
@@ -41,62 +41,55 @@ export const info = {
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
+      link: 'https://www.linkedin.com',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
     {
-      link: 'https://twitter.com/Andy8647L',
-      icon: 'fa fa-twitter',
-      label: 'twitter',
+      link: 'https://www.facebook.com/cot.toxicff/',
+      icon: 'fa fa-facebook',
+      label: 'facebook',
     },
   ],
-  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
+  bio: "Hello! I'm Nguyen Ngoc Chien. I'm a Full Stack Developer. I studied CompSci at Gia Dinh Uni, I enjoy building web applications and learning new technologies. I'm currently working at home as a freelance Full Stack Developer. I love to draw and play video games . I'm currently based in Ho Chi Minh city, VietNam.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
+    languages: ['JavaScript', 'Java', 'C#', 'Python', 'HTML/CSS'],
     frameworks: [
       'React',
       'Redux',
       'Material UI',
-      'Vue',
       'Express',
-      'NestJS',
-      'Spring Boot',
       'Bootstrap/jQuery',
-      'Zend',
-      'Django',
+      'Asp.Net MVC/ Core',
+      'Spring Boot (basic)',
+      'Django (basic)',
     ],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
-    cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
+    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'SQL Server'],
+    cloudServices: ['Mongo Alias cloud', 'Render', 'Google Analytics', 'Heroku'],
     tools: [
       'Git',
+      'GitLab',
       'Postman',
-      'Docker',
+      'Docker (basic)',
       'Swagger',
-      'Elasticsearch',
       'npm',
       'yarn',
-      'Maven',
-      'Jenkins',
-      'Jira',
-      'Confluence',
-      'Bitbucket',
     ],
   },
   hobbies: [
     {
-      label: 'Photography',
-      emoji: '📷',
+      label: 'Drawing',
+      emoji: '🎨',
     },
     {
       label: 'Video Games',
       emoji: '🎮',
     },
     {
-      label: 'Guitar',
-      emoji: '🎸',
+      label: 'Drum',
+      emoji: '🥁',
     },
     {
       label: 'Anime',
@@ -107,12 +100,12 @@ export const info = {
       emoji: '🍳',
     },
     {
-      label: 'Traveling',
-      emoji: '✈️',
+      label: 'Music',
+      emoji: '🎸',
     },
     {
-      label: 'Fishing',
-      emoji: '🎣',
+      label: 'Basketball',
+      emoji: '🏀',
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P

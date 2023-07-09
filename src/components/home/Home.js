@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../assets/img/self.png';
+import me from '../../assets/img/mine.jpg';
 import classNames from 'classnames';
 import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
@@ -23,8 +23,8 @@ export default function Home({ darkMode }) {
         style={{ background: info.gradient, objectFit: 'cover' }}
         component={'img'}
         src={me}
-        width={{ xs: '35vh', md: '40vh' }}
-        height={{ xs: '35vh', md: '40vh' }}
+        width={{ xs: '25vh', md: '30vh' }}
+        height={{ xs: '25vh', md: '30vh' }}
         borderRadius={'50%'}
         p={'0.75rem'}
         mb={{ xs: '1rem', sm: 0 }}
