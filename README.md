@@ -2,9 +2,8 @@
 
 ## a portfolio for developers
 
-![screenshot](https://andy8647.com/website.jpg)
 ![](src/assets/img/homeprofile.png)
-[View Live Demo](https://andy8647.com/)
+[View Live Demo](http://localhost:3000/)
 
 Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
 I just added particlets background, OS dark mode detection and watch, Google Analytics.
@@ -107,51 +106,15 @@ const firebaseConfig = {
 };
 ```
 
-### 5. Social Media Presence meta tags
-- edit `/public/index.html`
-- for meta tags, you can use the generator [here](https://metatags.io/)
-- [twitter example](https://twitter.com/Andy8647L/status/1633956293986664448)
+### 5. Deployment
 
-```html
-<!-- Social Media Previews -->
-    <!-- Primary Meta Tags -->
-    <title>Andy Luo, Full Stack Developer</title>
-    <meta name="title" content="Andy Luo, Full Stack Developer">
-    <meta name="description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://andy8647.com/">
-    <meta property="og:title" content="Andy Luo, Full Stack Developer">
-    <meta property="og:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="og:image" content="https://andy8647.com/website.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://andy8647.com/">
-    <meta property="twitter:title" content="Andy Luo, Full Stack Developer">
-    <meta property="twitter:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="twitter:image" content="https://andy8647.com/website.jpg">
-```
-
-
-### 6. Deployment
-
-I recommend using [Render](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
-
-P.S. If you are using Netlify, to resolved the bug from `react-router-dom`, you need to add a `_redirects` file in the `public` folder and add the following code:
-
-```
-/*    /index.html   200
-```
-
----
+I recommend using [Render](https://www.render.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://render.com/docs) to deploy your site.
 
 And you're done!
 
 If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
 
-[Twitter](https://twitter.com/Andy8647L) | andy8647lgc@gmail.com
+[Twitter](https://twitter.com) | chien.170901@gmail.com
 
 Finally, thanks to the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
 
