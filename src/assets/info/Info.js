@@ -36,7 +36,7 @@ export const info = {
       label: 'instagram',
     },
     {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/Cotchi666',
       icon: 'fa fa-github',
       label: 'github',
     },
