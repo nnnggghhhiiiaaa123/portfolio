@@ -1,4 +1,6 @@
 import self from '../img/mine.jpg';
+import resume from '../img/resume.pdf';
+
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -26,7 +28,7 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://github.com/Cotchi666/resume/blob/main/NGUYEN-NGOC-CHIEN-TopCV.vn-090723.170024%20(1).pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: resume,
       icon: 'fa fa-file',
       label: 'resume',
     },
@@ -120,7 +122,7 @@ export const info = {
       image: 'https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/netflix-la-gi-1.png',
     },
     {
-      title: 'Mini Game',
+      title: 'Mini Game(in progress)',
       live: null,
       source: 'https://github.com/Cotchi666',
       image: 'https://www.freecodecamp.org/news/content/images/2021/08/giphy.gif',
