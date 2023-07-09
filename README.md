@@ -3,7 +3,7 @@
 ## a portfolio for developers
 
 ![](src/assets/img/homeprofile.png)
-[View Live Demo](http://localhost:3000/)
+[View Live Demo](https://portfoliochie.onrender.com/)
 
 Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
 I just added particlets background, OS dark mode detection and watch, Google Analytics.
