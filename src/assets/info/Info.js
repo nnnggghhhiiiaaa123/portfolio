@@ -1,4 +1,4 @@
-import self from '../img/self.png';
+import self from '../img/mine.jpg';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -114,16 +114,16 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Netflix-Clone - Online Watching Movies platform based on Netflix',
-      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      title: 'Netflix-Clone - Online Watching Movies platform based off of Netflix',
+      live: 'https://client-hoy3.onrender.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Cotchi666/netflix-mern-app.git.', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--GBQiIhtJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qbsciyoo1m5174v5zcxz.png',
+      image: 'https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/netflix-la-gi-1.png',
     },
     {
       title: 'Mini Game',
       live: null,
       source: 'https://github.com/Cotchi666',
-      image: 'https://i.ibb.co/HFkMKtH/02.jpg',
+      image: 'https://www.freecodecamp.org/news/content/images/2021/08/giphy.gif',
     },
   ],
 };
