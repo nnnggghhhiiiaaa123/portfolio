@@ -6,7 +6,7 @@ import { colors } from '../colors/mainGradient';
 export const info = {
   firstName: 'Chien',
   lastName: 'Nguyen',
-  initials: 'CotChi', // the example uses first and last, but feel free to use three or more if you like.
+  initials: 'JS', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a Full Stack Developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either

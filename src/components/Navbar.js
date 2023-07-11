@@ -7,12 +7,12 @@ import { info } from '../assets/info/Info';
 
 const links = [
   {
-    name: 'Home',
+    name: 'home',
     to: '/',
     active: 'home',
   },
   {
-    name: 'About Me',
+    name: 'about Me',
     to: '/about',
     active: 'about',
   },
@@ -23,7 +23,7 @@ const links = [
     active: 'home',
   },
   {
-    name: 'Portfolio',
+    name: 'portfolio',
     to: '/portfolio',
     active: 'portfolio',
   },

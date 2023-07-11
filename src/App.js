@@ -7,6 +7,7 @@ import { logGa } from './utils/log';
 function App() {
   useEffect(() => {
     logGa('home_page_visit');
+    console.log("vo home_page")
   }, []);
 
   return (  
