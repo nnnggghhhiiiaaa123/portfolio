@@ -2,7 +2,16 @@
 
 footer {
   color: $dark;
+
+  @media only screen and (max-width: 844) {
+    #fullmod {
+      display: none;
+
+    }
+  }
+
 }
+
 
 .dark {
   background-color: transparent;
@@ -22,7 +31,13 @@ footer {
 
   footer {
     color: $white;
+
+
+
+
   }
+
+
 }
 
 .light {
@@ -30,6 +45,7 @@ footer {
   color: $dark;
   transition: all 400ms;
 }
+
 
 //.dark {
 //  background-color: $dark;
