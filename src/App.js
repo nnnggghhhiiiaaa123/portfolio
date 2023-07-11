@@ -9,7 +9,7 @@ function App() {
     logGa('home_page_visit');
   }, []);
 
-  return (
+  return (  
     <div>
       <BrowserRouter>
         <BaseLayout />

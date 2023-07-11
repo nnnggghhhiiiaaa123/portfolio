@@ -75,7 +75,7 @@ export default function BaseLayout() {
               <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
             </p>
             <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
+              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>, <a href={'https://portfoliochie.onrender.com/'}>Chien</a>,
               redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
             </p>
             <p>&copy; 2023</p>
