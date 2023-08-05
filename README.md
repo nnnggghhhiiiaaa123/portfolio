@@ -114,7 +114,7 @@ And you're done!
 
 If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
 
-[Twitter](https://twitter.com) | chien.170901@gmail.com
+[Twitter](https://twitter.com) | 
 
 Finally, thanks to the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
 

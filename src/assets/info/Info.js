@@ -4,10 +4,10 @@ import resume from '../img/resume.pdf';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
-  firstName: 'Chien',
+  firstName: 'Nghia',
   lastName: 'Nguyen',
   initials: 'JS', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Full Stack Developer',
+  position: 'a FE Developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -23,7 +23,7 @@ export const info = {
     },
     {
       emoji: '📧',
-      text: 'chien.170901@gmail.com',
+      text: 'oootui123@gmail.com',
     },
   ],
   socials: [
@@ -33,12 +33,12 @@ export const info = {
       label: 'resume',
     },
     {
-      link: 'https://www.instagram.com/cotchi_en/',
+      link: 'https://www.instagram.com/khuhanquoc/',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
     {
-      link: 'https://github.com/Cotchi666',
+      link: 'https://github.com/nnnggghhhiiiaaa123',
       icon: 'fa fa-github',
       label: 'github',
     },
@@ -48,25 +48,23 @@ export const info = {
       label: 'linkedin',
     },
     {
-      link: 'https://www.facebook.com/cot.toxicff/',
+      link: 'https://www.facebook.com/nghia.rapper.77',
       icon: 'fa fa-facebook',
       label: 'facebook',
     },
   ],
-  bio: "Hello! I'm Nguyen Ngoc Chien. I'm a Full Stack Developer. I studied CompSci at Gia Dinh Uni, I enjoy building web applications and learning new technologies. I'm currently working at home as a freelance Full Stack Developer. I love to draw and play video games . I'm currently based in Ho Chi Minh city, VietNam.",
+  bio: "Hello! I'm Nguyen Trong Nghia. I'm a FE Developer. I studied CompSci at HUIT Uni, I enjoy building web applications and learning new technologies. I'm currently working at home as a freelance FE Developer. I love to draw and play video games . I'm currently based in Ho Chi Minh city, VietNam.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['JavaScript', 'Java', 'C#', 'Python', 'HTML/CSS'],
-    frameworks: [
+    languages: ['JavaScript', 'C#', 'HTML/CSS'],
+    frameworks: [ 
       'React',
       'Redux',
       'Material UI',
       'Express',
       'Bootstrap/jQuery',
-      'Asp.Net MVC/ Core',
-      'Spring Boot (basic)',
-      'Django (basic)',
+      'Asp.Net MVC',
     ],
     databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'SQL Server'],
     cloudServices: ['Mongo Alias cloud', 'Render', 'Google Analytics', 'Heroku'],
@@ -75,9 +73,7 @@ export const info = {
       'GitLab',
       'Postman',
       'Docker (basic)',
-      'Swagger',
-      'npm',
-      'yarn',
+      'npm'
     ],
   },
   hobbies: [
@@ -116,7 +112,7 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Netflix-Clone - Online Watching Movies platform based off of Netflix',
+      title: 'Clone BookingCare',
       live: 'https://client-hoy3.onrender.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/Cotchi666/netflix-mern-app.git.', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/netflix-la-gi-1.png',
